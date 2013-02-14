@@ -960,13 +960,13 @@
 
     ```javascript
     // bad
-    this._firstName__ = 'Panda';
+    this._firstName = 'Panda';
 
     // good
     this.firstName = 'Panda';
     ```
 
-  - When saving a reference to `this` use `self`, 'parent' or 'that'.
+  - When saving a reference to `this` use `self`, `parent` or `that`.
 
     ```javascript
     // bad
