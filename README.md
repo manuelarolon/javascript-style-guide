@@ -956,21 +956,28 @@
     });
     ```
 
-  - Use a leading underscore `_` when naming private properties
+  - Never use a leading underscore `_` when naming private properties
 
     ```javascript
     // bad
-    this.__firstName__ = 'Panda';
-    this.firstName_ = 'Panda';
-    
+    this._firstName__ = 'Panda';
+
     // good
-    this._firstName = 'Panda';
+    this.firstName = 'Panda';
     ```
 
-  - When saving a reference to `this` use `_this`.
+  - When saving a reference to `this` use `self`, 'parent' or 'that'.
 
     ```javascript
     // bad
+    function() {
+      var _this = this;
+      return function() {
+        console.log(_this);
+      };
+    }
+
+    // good
     function() {
       var self = this;
       return function() {
@@ -978,7 +985,7 @@
       };
     }
 
-    // bad
+    // good
     function() {
       var that = this;
       return function() {
@@ -988,11 +995,12 @@
 
     // good
     function() {
-      var _this = this;
+      var parent = this;
       return function() {
-        console.log(_this);
+        console.log(parent);
       };
     }
+
     ```
 
   - Name your functions. This is helpful for stack traces.
