@@ -1,7 +1,7 @@
 # Globant JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
-*Derived from the excellent work done by airbnb [here](https://github.com/airbnb/javascript)*
+*derived from the excellent work done by airbnb [here](https://github.com/airbnb/javascript)*
 
 
 ## <a name='TOC'>Table of Contents</a>
