@@ -1,8 +1,10 @@
+
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Globant JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
+*derived from the excellent work done by airbnb [here](https://github.com/airbnb/javascript)*
 
 
 ## Table of Contents
@@ -369,7 +371,7 @@
   - Use one `var` declaration per variable.
     It's easier to add new variable declarations this way, and you never have
     to worry about swapping out a `;` for a `,` or introducing punctuation-only
-    diffs. 
+    diffs.
 
     ```javascript
     // bad
@@ -1083,7 +1085,7 @@
     });
     ```
 
-  - Use a leading underscore `_` when naming private properties
+  - Never use a leading underscore `_` when naming private properties
 
     ```javascript
     // bad
@@ -1094,10 +1096,18 @@
     this._firstName = 'Panda';
     ```
 
-  - When saving a reference to `this` use `_this`.
+  - When saving a reference to `this` use `self`, `parent` or `that`.
 
     ```javascript
     // bad
+    function() {
+      var _this = this;
+      return function() {
+        console.log(_this);
+      };
+    }
+
+    // good
     function() {
       var self = this;
       return function() {
@@ -1105,7 +1115,7 @@
       };
     }
 
-    // bad
+    // good
     function() {
       var that = this;
       return function() {
@@ -1115,11 +1125,12 @@
 
     // good
     function() {
-      var _this = this;
+      var parent = this;
       return function() {
-        console.log(_this);
+        console.log(parent);
       };
     }
+
     ```
 
   - Name your functions. This is helpful for stack traces.
