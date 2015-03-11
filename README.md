@@ -1,4 +1,4 @@
-# Lesson 1: Introduction to Javascript
+# Lesson 1: Introduction to JavaScript
 
 ## Topics
 
@@ -21,8 +21,7 @@
   1. [Accessors](#accessors)
   1. [Constructors](#constructors)
   1. [Events](#events)
-  1. [Modules](#modules)
-  <!--1. [Exercises](#exercises)-->
+  1. [Modules](#modules)  
 
 #### Types
 
