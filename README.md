@@ -56,7 +56,7 @@
     console.log(foo[0], bar[0]); // => 9, 9
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 #### Objects
 
@@ -105,7 +105,7 @@
     };
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 #### Arrays
 
@@ -156,7 +156,7 @@
     }
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Strings
@@ -240,7 +240,7 @@
     }
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Functions
@@ -298,7 +298,7 @@
     }
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 
@@ -334,7 +334,7 @@
     var isJedi = getProp('jedi');
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Variables
@@ -453,7 +453,7 @@
     }
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Hoisting
@@ -542,7 +542,7 @@
 
   - For more information refer to [JavaScript Scoping & Hoisting](http://www.adequatelygood.com/2010/2/JavaScript-Scoping-and-Hoisting) by [Ben Cherry](http://www.adequatelygood.com/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 
@@ -591,7 +591,7 @@
 
   - For more information see [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Blocks
@@ -620,7 +620,7 @@
     }
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Comments
@@ -713,7 +713,7 @@
     }
   ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Whitespace
@@ -828,7 +828,7 @@
         .call(tron.led);
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 #### Commas
 
@@ -894,7 +894,7 @@
     ];
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Semicolons
@@ -923,7 +923,7 @@
 
     [Read more](http://stackoverflow.com/a/7365214/1712802).
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Type Casting & Coercion
@@ -1006,7 +1006,7 @@
     var hasAge = !!age;
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Naming Conventions
@@ -1130,7 +1130,7 @@
 
   - **Note:** IE8 and below exhibit some quirks with named function expressions.  See [http://kangax.github.io/nfe/](http://kangax.github.io/nfe/) for more info.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Accessors
@@ -1184,7 +1184,7 @@
     };
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Constructors
@@ -1269,7 +1269,7 @@
     };
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 
 #### Events
@@ -1300,7 +1300,7 @@
     });
     ```
 
-  **[⬆ back to top](#table-of-contents)**
+  **[⬆ back to top](#topics)**
 
 
 #### Modules
@@ -1331,7 +1331,7 @@
     }(this);
     ```
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#topics)**
 
 ## Exercises
 
@@ -1341,3 +1341,5 @@
 * [for loop](http://www.teaching-materials.org/javascript/exercises/forloops.html)
 * [Arrays](http://www.teaching-materials.org/javascript/exercises/arrays.html)
 * [Objects](http://www.teaching-materials.org/javascript/exercises/objects.html)
+
+**[⬆ back to top](#topics)**
